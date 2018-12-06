@@ -1,0 +1,3 @@
+[run]
+source = hello_pyramid_big
+omit = hello_pyramid_big/test*

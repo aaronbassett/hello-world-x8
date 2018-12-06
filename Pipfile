@@ -1,0 +1,30 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+django = "*"
+pyramid = "*"
+plaster-pastedeploy = "*"
+"pyramid-jinja2" = "*"
+pyramid-debugtoolbar = "*"
+waitress = "*"
+"cb472f5" = {path = "hello_pyramid_big", editable = true}
+flask = "*"
+cherrypy = "*"
+falcon = "*"
+gunicorn = "*"
+hug = "*"
+tornado = "*"
+sanic = "*"
+
+
+[dev-packages]
+
+pylint = "*"
+"flake8" = "*"
+black = "*"
